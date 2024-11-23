@@ -1,0 +1,177 @@
+body {
+    color: #333333;
+    background: #f5f5f5;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 13px;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.table-wrapper {
+    background: #fff;
+    padding: 20px 25px;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.table-title {
+    background: #333333;
+    color: #fff;
+    padding: 16px 30px;
+    margin: -20px -25px 10px;
+    border-radius: 3px 3px 0 0;
+}
+
+.table-title h2 {
+    margin: 5px 0 0;
+    font-size: 24px;
+}
+
+.table-title .btn {
+    float: right;
+    min-width: 50px;
+    border-radius: 2px;
+    border: none;
+    padding: 6px 12px;
+    font-size: 13px;
+}
+
+.table-title .btn i {
+    float: left;
+    font-size: 21px;
+    margin-right: 5px;
+}
+
+.table-title .btn span {
+    float: left;
+    margin-top: 2px;
+}
+
+table.table tr th, table.table tr td {
+    border-color: #e9e9e9;
+    padding: 12px 15px;
+    vertical-align: middle;
+}
+
+table.table tr th:last-child {
+    width: 100px;
+}
+
+table.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #fcfcfc;
+}
+
+table.table-striped.table-hover tbody tr:hover {
+    background: #f5f5f5;
+}
+
+table.table td a {
+    display: inline-block;
+    margin: 0 5px;
+    min-width: 24px;
+}
+
+table.table td a.view {
+    color: #03A9F4;
+}
+
+table.table td a.edit {
+    color: #FFC107;
+}
+
+table.table td a.delete {
+    color: #E34724;
+}
+
+table.table td i {
+    font-size: 19px;
+}
+
+/* Modal styles */
+.modal .modal-dialog {
+    max-width: 400px;
+}
+
+.modal .modal-header, 
+.modal .modal-body, 
+.modal .modal-footer {
+    padding: 20px 30px;
+}
+
+.modal .modal-content {
+    border-radius: 3px;
+}
+
+.modal .modal-footer {
+    background: #ecf0f1;
+    border-radius: 0 0 3px 3px;
+}
+
+.modal .modal-title {
+    display: inline-block;
+}
+
+.modal .form-control {
+    border-radius: 2px;
+    box-shadow: none;
+    border-color: #dddddd;
+}
+
+.modal textarea.form-control {
+    resize: vertical;
+}
+
+.modal .btn {
+    border-radius: 2px;
+    min-width: 100px;
+}
+
+.modal form label {
+    font-weight: normal;
+}
+
+/* Material icons alignment */
+.material-icons {
+    vertical-align: middle;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+/* Action buttons spacing */
+td .material-icons {
+    margin: 0 3px;
+}
+
+/* Button colors */
+.btn-success {
+    background-color: #28a745;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .table-wrapper {
+        padding: 10px;
+    }
+    
+    .table-title h2 {
+        font-size: 20px;
+    }
+    
+    .table-title .btn {
+        float: none;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .modal-dialog {
+        max-width: 95%;
+        margin: 20px auto;
+    }
+} 
